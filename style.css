@@ -364,8 +364,28 @@ footer ul a:hover {
     color: var(--color-white);
 }
 
+/******************* SINGLE POST! *******************/
+.singlepost {
+    margin: 6rem 0;
+}
 
-/******************* media query MD! *******************/  
+.singlepost__container {
+    width: 40%;
+    background: var(--color-gray-900);
+    padding: 1rem 2rem 3rem;
+}
+
+.singlepost__thumbnail {
+    margin: 1.5rem 0 1rem;
+}
+
+.singlepost__container p {
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+
+
+/******************* Media Query MD! *******************/  
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
@@ -488,6 +508,12 @@ footer ul a:hover {
     .footer__container {
         grid-template-columns: 1fr 1fr;
     }
+
+    /******************* media query blog *******************/
+    .search__bar-container {
+        width: 60%;
+    }
+
 }
 
 /******************* media query SD! *******************/ 
@@ -523,4 +549,16 @@ footer ul a:hover {
         text-align: center;
         gap: 2rem;
     }
+
+     /******************* media query blog *******************/
+     .search__bar-container {
+        width: 88%;
+    }
+
+        /******************* media query single post *******************/
+
+        .singlepost__container {
+            background: transparent;
+            padding: 0;
+        }
 }
