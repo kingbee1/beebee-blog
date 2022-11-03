@@ -393,6 +393,12 @@ footer ul a:hover {
     place-items: center;
 }
 
+/******************* Empty Page! *******************/ 
+.empty__page {
+    height: 70vh;
+    display: grid;
+    place-items: center;
+}
 
 /******************* Media Query MD! *******************/  
 @media screen and (max-width: 1024px) {
