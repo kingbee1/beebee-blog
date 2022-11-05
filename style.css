@@ -586,6 +586,11 @@ input, textarea, select {
         width: 60%;
     }
 
+    /******************* media query general form *******************/
+    .form__section-container {
+        padding: 3rem;
+    }
+
 }
 
 /******************* media query SD! *******************/ 
@@ -627,10 +632,16 @@ input, textarea, select {
         width: 88%;
     }
 
-        /******************* media query single post *******************/
+    /******************* media query single post *******************/
 
-        .singlepost__container {
-            background: transparent;
-            padding: 0;
-        }
+    .singlepost__container {
+        background: transparent;
+        padding: 0;
+    }
+
+     /******************* media query general form *******************/
+     .form__section-container {
+        padding: 0rem;
+    }
+
 }
